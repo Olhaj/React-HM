@@ -3,7 +3,6 @@ import OrderStatus from "./components/OrderStatus";
 import ShoppingList from "./components/ShoppingList";
 
 function App() {
-  // const [count, setCount] = useState(0);
   const items = ["Apples", "Bananas", "Oranges"];
   const orders = [
     { orderId: 123, status: "в пути" },
