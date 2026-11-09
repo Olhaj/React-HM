@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  gap: 15px;
+}
+
+.rating_title {
+  margin-left: 80px;
+  font-size: 35px;
+}
+
+img {
+  width: 500px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.rating_btn {
+  display: flex;
+  margin-left: 30px;
+  gap: 10px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.btn:focus {
+  border: 2px solid gray;
+}
