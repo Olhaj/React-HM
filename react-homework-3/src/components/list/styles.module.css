@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.list_title {
+  padding-bottom: 15px;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+.list_btn {
+  margin-top: 8px;
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  background-color: red;
+  cursor: pointer;
+}

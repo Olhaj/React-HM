@@ -1,5 +1,13 @@
+import List from "./components/list";
+import Rating from "./components/rating";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Rating />
+      <List />
+    </>
+  );
 }
 
 export default App;
