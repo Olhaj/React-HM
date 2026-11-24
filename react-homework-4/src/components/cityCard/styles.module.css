@@ -1,0 +1,28 @@
+.city_card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.city_card > img {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.city_card > img:hover {
+  width: 450px;
+  height: 350px;
+  transform: scale(1.03);
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.18);
+}
+
+.city_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 25px;
+}
